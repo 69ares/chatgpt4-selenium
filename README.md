@@ -1,33 +1,27 @@
 # chatgpt4-selenium
-##GPT4 - SeleniumChat 
+## GPT4 - SeleniumChat 
 
-#How to Use It:
-##Setup:
+# How to Use It:
+## Setup:
 
-Ensure you have Chrome installed and start it with the given command to enable remote debugging.
-Install the required libraries, including Flask and Selenium.
-Running the Code:
+### Ensure you have Chrome installed and start it with the given command to enable remote debugging.
+### Install the required libraries, including Flask and Selenium.
+### You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer.
 
-Execute the script. This will start the Flask application in the background.
-The script will automatically send a predefined question (user_comment) to the Flask endpoint.
-The Flask app will interact with the browser, send the question, wait for the answer, and then return the answer which will be printed by the script.
-Interacting with the App:
+# Possible Uses:
+## Automated Question-Answer System:
+### The script can be used as an automated system to pose questions to a web-based chatbot and obtain answers.
 
-You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer.
-#Possible Uses:
-##Automated Question-Answer System:
-###The script can be used as an automated system to pose questions to a web-based chatbot and obtain answers.
+## Testing and Validation:
+### If you're developing or testing a web-based chat system, this script can be a tool to automatically pose questions and verify the responses.
 
-##Testing and Validation:
-###If you're developing or testing a web-based chat system, this script can be a tool to automatically pose questions and verify the responses.
+## Data Collection:
+### You can modify the script to send a series of questions and collect answers, which can then be used for data analysis or training machine learning models.
 
-##Data Collection:
-###You can modify the script to send a series of questions and collect answers, which can then be used for data analysis or training machine learning models.
+## Customized Responses:
+### Given the premise and guidelines in the script, it seems the system aims to provide specific types of responses based on context (e.g., acting as the owner of an e-commerce account). This can be expanded to other contexts or used for customer support simulations.
 
-##Customized Responses:
-###Given the premise and guidelines in the script, it seems the system aims to provide specific types of responses based on context (e.g., acting as the owner of an e-commerce account). This can be expanded to other contexts or used for customer support simulations.
+## Integration with Other Systems:
+### With some modifications, the script can be integrated into other systems, such as CRM tools, to provide automated responses to user queries.
 
-##Integration with Other Systems:
-###With some modifications, the script can be integrated into other systems, such as CRM tools, to provide automated responses to user queries.
-
-###Remember to always test the script in a safe environment, especially when automating browser interactions, to ensure it behaves as expected.
+### Remember to always test the script in a safe environment, especially when automating browser interactions, to ensure it behaves as expected.
