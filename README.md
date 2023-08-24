@@ -1,4 +1,4 @@
-![Screenshot 2023-08-24 182007](https://github.com/69ares/chatgpt4-selenium/assets/35406032/0794079a-abde-48e4-be79-26013533bdd5)
+
 # chatgpt4-selenium
 ## GPT4 - SeleniumChat 
 
@@ -17,6 +17,12 @@ Windows:
 
 You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer
 - curl -X POST -H "Content-Type: application/json" -d "{\"domanda\":\"ciao come stai?\"}" http://127.0.0.1:5001/ricevi_domanda
+
+
+### Media:
+![Screenshot 2023-08-24 182007](https://github.com/69ares/chatgpt4-selenium/assets/35406032/0794079a-abde-48e4-be79-26013533bdd5)
+
+
 
 # Possible Uses:
 ## Automated Question-Answer System:
