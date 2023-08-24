@@ -1,6 +1,5 @@
-
-# chatgpt4-selenium
-## GPT4 - SeleniumChat 
+# GPT4 - SeleniumChat 
+Free chatgpt4 with Selenium
 
 # Setup:
 Ensure you have Chrome installed
