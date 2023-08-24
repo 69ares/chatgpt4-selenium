@@ -1,17 +1,21 @@
 # chatgpt4-selenium
 ## GPT4 - SeleniumChat 
 
-## Setup:
+# Setup:
 Ensure you have Chrome installed
+
 - https://chromedriver.chromium.org/downloads
 
+
 Start it with the given command to enable remote debugging.
+
 Windows:
-"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --remote-debugging-port=9998 --user-data-dir=openai
+
+- "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --remote-debugging-port=9998 --user-data-dir=openai
 
 
-- You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer
-C:\Windows\System32>curl -X POST -H "Content-Type: application/json" -d "{\"domanda\":\"ciao come stai?\"}" http://127.0.0.1:5001/ricevi_domanda
+You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer
+- curl -X POST -H "Content-Type: application/json" -d "{\"domanda\":\"ciao come stai?\"}" http://127.0.0.1:5001/ricevi_domanda
 
 # Possible Uses:
 ## Automated Question-Answer System:
