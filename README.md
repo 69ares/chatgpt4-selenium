@@ -1,12 +1,10 @@
 # chatgpt4-selenium
 ## GPT4 - SeleniumChat 
 
-# How to Use It:
 ## Setup:
-
-### Ensure you have Chrome installed and start it with the given command to enable remote debugging.
-### Install the required libraries, including Flask and Selenium.
-### You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer.
+Ensure you have Chrome installed and start it with the given command to enable remote debugging.
+Install the required libraries, including Flask and Selenium.
+You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer.
 
 # Possible Uses:
 ## Automated Question-Answer System:
