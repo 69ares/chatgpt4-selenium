@@ -101,11 +101,11 @@ def run_flask_app():
     
 flask_thread = threading.Thread(target=run_flask_app)
 flask_thread.start()
-CHATGPT##################################################################################
+###################CHATGPT##################################################################################
 
 
 
-INVIA DOMANDA A CHATGPT###################################################################################################
+###################INVIA DOMANDA A CHATGPT###################################################################################################
 
             user_comment = "Ciao, fino a che ora siete aperti?"
             premessa = ("Risposte in italiano, brevi e dirette.Massimo 150 caratteri."
