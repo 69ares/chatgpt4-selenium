@@ -2,9 +2,16 @@
 ## GPT4 - SeleniumChat 
 
 ## Setup:
-Ensure you have Chrome installed and start it with the given command to enable remote debugging.
-Install the required libraries, including Flask and Selenium.
-You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer.
+Ensure you have Chrome installed
+- https://chromedriver.chromium.org/downloads
+
+Start it with the given command to enable remote debugging.
+Windows:
+"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --remote-debugging-port=9998 --user-data-dir=openai
+
+
+- You can send a POST request with a different question payload to http://127.0.0.1:5001/ricevi_domanda to get an answer
+C:\Windows\System32>curl -X POST -H "Content-Type: application/json" -d "{\"domanda\":\"ciao come stai?\"}" http://127.0.0.1:5001/ricevi_domanda
 
 # Possible Uses:
 ## Automated Question-Answer System:
@@ -22,4 +29,4 @@ Given the premise and guidelines in the script, it seems the system aims to prov
 ### Integration with Other Systems:
 With some modifications, the script can be integrated into other systems, such as CRM tools, to provide automated responses to user queries.
 
-### Remember to always test the script in a safe environment, especially when automating browser interactions, to ensure it behaves as expected.
+Remember to always test the script in a safe environment, especially when automating browser interactions, to ensure it behaves as expected.
